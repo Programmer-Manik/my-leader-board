@@ -1,0 +1,147 @@
+/*fonts styles */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+/*commn style strad */
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #9F9F9F;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container{
+    width: 870px;
+    background-color: #FFF;
+    padding:30px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+/*commn style end */
+
+/* <!--  section-one strad --> */
+/* <!-- top-palyers strad style --> */
+.top-palyer-titel{
+    color: #562EFF;
+    font-size: 24px;
+    margin-top:-15px;
+}
+.top-palyers{
+   display: grid;
+   grid-template-columns: repeat(3, 1fr); 
+   grid-row-gap:30px;
+   margin-bottom:30px;
+}
+.palyer{
+    display: flex;
+    align-items: center;
+}
+
+.palyer img{
+    width: 56px;
+    height: 56px;
+}
+.palyer-text{
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+.horizontal{
+    border: 1px solid #D1D1D1;
+}
+/* <!-- top-palyers end style --> */
+
+
+/* <!-- top blog strad --> */
+.top-blogs-titel{
+    color: #562EFF;
+    font-size: 24px;
+}
+.blog{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap:26px;
+}
+.article-box{
+    display: flex;
+}
+.blog-thumbel img{
+    width: 177px;
+    height: 117px;
+}
+.bolg-inof{
+    margin-left: 20px;
+}
+.bolg-titel{
+    color: #000000;
+    font-size: 20px;
+    margin: 0%;
+}
+.bolg-athur{
+    color: #9F9F9F;
+    font-size: 18px;
+    margin:0%;
+}
+.bolg-athur a{
+    text-decoration: none;
+}
+/* <!-- top blog end --> */
+/* <!--  section-one end --> */
+
+
+
+/*  <!-- section-two strad --> */
+/*  <!-- latest coursee strad --> */
+.section-titel{
+    font-size: 24px;
+    color: #562EFF;
+    margin-top: -10px; 
+}
+.courses{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.courses-benar img{
+    width: 266px;
+    height: 141px;
+    margin: 0%;
+}
+.courses-info h4{
+    font-size: 20.0336px;
+    color: #1E1E1E;
+    margin:0%;    
+}
+.courses-info p{
+    margin: 0%;
+}
+.courses-info p a{
+    color: #ED6B4F;
+    text-decoration: none;
+}
+
+.courses-icons{
+    display: flex;
+    align-items: center;
+}
+.icon-items{
+    height: 12.80px;
+    width: 13.38px;
+
+}
+.span1{
+   font-size:14px;
+   margin-left: 25px;
+}
+.time-icon{
+   display:flex;
+   align-items: center;
+   margin-left: 25px;
+   font-size: small;
+}
+
+.time-icon img{
+    width: 16.64px;
+    height: 16.64px;
+}
+/*  <!-- latest coursee end --> */
+/*  <!-- section-two end --> */
